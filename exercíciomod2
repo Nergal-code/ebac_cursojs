@@ -1,0 +1,136 @@
+Exercício 1:
+
+
+console.log(10 + 15);
+console.log("10" + 2);
+console.log("10" * 2); 
+console.log("10" / 3);
+console.log("10" % 3);
+console.log(10 + true);
+console.log(10 == "10");
+console.log(10 === "10");
+console.log(10 < 11);
+console.log(10 > 12);
+console.log(10 <= 10.1);
+console.log(10 > 9.99);
+console.log(10 != "dez");
+console.log(10 + true);
+console.log("dez" + true);
+console.log(10 + false);
+console.log(10 * false);
+console.log(true + true);
+console.log(1 & 1);
+console.log(1 & 0);
+console.log(0 & 0);
+console.log(1 & 0);
+console.log(0 / 1);
+console.log(5 + 5  == 10);
+console.log("5" + "5" == 10);
+console.log("5" * 2 > 9);
+console.log((10 + 10) * 2);
+console.log(10 + 10 * 2);
+Resultado:
+
+1. Resolva as operações:
+10+15=25 (NUMBER) 
+"10"+2='102'(STRING)
+"10" 2=20(NUMBER)
+"10"/3=3333333335(FLOAT) 
+"10" % 3 = (NUMBER)
+10+ true = (NUMBER) 
+10 =="10" = TRUE ( BOOLEAN)
+10 ==="10" = FALSE (BOOLEAN)
+10=10<11= TRUE (BOOLEAN)
+10>12= FALSE (BOOLEAN)
+10 <= 10.1=UE (BOOLEAN) 
+10>9.99 UE (BOOLEAN)
+10!= "dez" = TRUE (BOOLEAN)
+10+ true = 11 (NUMBER) 
+"dez" + true = "DEz TRUE" (STRING)
+10+ false = 1O(NUMBER)
+10* false= 0 (NUMBER) 
+true + true = 2 (NUMBER)
+10++= 11
+10-=g
+1&1= 1 (NUMBER) 
+1&0=(UMBER)
+0&0=0(NUMBER)
+1&0=0 (NUMBER) 
+0/1= O(NUMBER)
+5+5=10=TRUE (BOOLEAN)
+"5"+"5"==10=FALSE BOOLEAN
+5" 2>9=TRUE (BOOLEAN)
+(10+10) 2 = 40(NUMBER)
+10+10*2=30(NUMBER)
+
+
+Exercício 2
+let branco = "preto";
+let preto = "cinza";
+let cinza = "branco";
+let carro = "preto";
+let valor = 30000;
+let prestacao = 750;
+Resultados do segundo exercício:
+
+
+
+a) branco == “branco”
+
+Resposta: false
+
+
+
+b) branco == cinza
+
+Resposta: false
+
+
+
+c) carro === branco
+
+Resposta: true
+
+
+
+d) var cavalo = carro == “preto” ? “cinza” : “marrom”;
+
+Resposta: "cinza"
+
+
+
+e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação. 
+
+Resposta: 36 prestações
+
+
+
+Operação:
+
+
+
+var entrada = 3000;
+
+valor = valor - entrada;
+
+var pretacoes = 0;
+
+
+
+while(valor != 0){
+
+	pretacoes = pretacoes + 1;
+
+ valor = valor - 750
+
+}
+
+
+
+console.log("Número de prestações: " + pretacoes);
+
+
+
+f) Somando as variáveis de cores é formada uma string de quantos caracteres?
+
+Resposta: 16 caracteres
